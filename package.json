@@ -1,0 +1,18 @@
+{
+  "name": "roo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "lerna": "^3.19.0"
+  },
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "a": "lerna init",
+    "build": "lerna run build",
+    "dev": "lerna run dev",
+    "test": "lerna run test"
+  }
+
+}

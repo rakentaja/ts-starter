@@ -1,0 +1,4 @@
+{
+    "extends": "./packages/build/tsconfig.json",
+    "exclude": ["./packages/build/webpack.config.js"]
+}
