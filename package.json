@@ -1,18 +1,18 @@
 {
-  "name": "roo",
+  "name": "{{ProjectName}}",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "private": true,
-  "dependencies": {
-    "lerna": "^3.19.0"
-  },
-  "workspaces": ["packages/*"],
   "scripts": {
-    "a": "lerna init",
-    "build": "lerna run build",
-    "dev": "lerna run dev",
-    "test": "lerna run test"
+    "build": "webpack --mode=production",
+    "dev": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^6.2.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   }
-
 }

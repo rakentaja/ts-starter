@@ -1,0 +1,4 @@
+{
+    "commands": ["npm install"],
+    "ignore": ["**/node_modules/**", "Readme.md"]
+}
