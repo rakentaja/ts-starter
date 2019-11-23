@@ -1,13 +1,11 @@
 # Rakentaja Typescript project starter 
 
-Run 
+### I have [rakentaja](https://github.com/rakentaja/cli)
+Then run `rakentaja https://github.com/rakentaja/ts-starter yourprojectname`
 
-```
-rakentaja https://github.com/rakentaja/ts-starter
-```
-
-To start a new project. 
-
+### If you haven't installed rakentaja yet
+You can run it with npx `npx @rakentaja/cli https://github.com/rakentaja/ts-starter yourprojectname` 
+to start a new project. 
 
 ```
 # Develop
